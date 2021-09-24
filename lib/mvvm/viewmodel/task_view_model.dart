@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:testapp/model/task_model.dart';
+import 'package:testapp/mvvm/model/task_model.dart';
 
 class TaskViewModel extends ChangeNotifier {
   List<TaskModel> tasks = [];
